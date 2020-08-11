@@ -2,10 +2,10 @@
 
 int main()
 {
-	int a;
+    int a;
 
-	if ((scanf("%d", &a) == 1) && (a >= 10) && (a <= 99))
-		printf("%d %d\n", a / 10, a % 10);
+    if ((scanf("%d", &a) == 1) && (a >= 10) && (a <= 99))
+        printf("%d %d\n", a / 10, a % 10);
 
-	return 0;
+    return 0;
 }
