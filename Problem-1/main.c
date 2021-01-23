@@ -2,10 +2,12 @@
 
 int main()
 {
-    int a;
+    char s[12], *p = gets(s);
 
-    if ((scanf("%d", &a) == 1) && (a >= 10) && (a <= 99))
-        printf("%d %d\n", a / 10, a % 10);
+    while (*p == ' ')
+        p++;
+
+    printf("%c %c", *p, *(p + 1));
 
     return 0;
 }
